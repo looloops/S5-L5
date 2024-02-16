@@ -1,0 +1,115 @@
+body {
+    font-family: "roboto", sans-serif;
+}
+
+header {
+    background-color: #ffc017;
+}
+
+.header {
+    padding-inline: 50px;
+    padding-block: 20px;
+    display: flex;
+    border-bottom: 1px solid;
+    position: sticky;
+    top: 0;
+}
+
+.header img {
+    max-width: 150px;
+}
+
+.header button {
+    padding: 7px 16px;
+}
+
+nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding-inline: 20px;
+}
+
+.hero {
+    display: flex;
+    border-bottom: 1px solid;
+    height: 462px;
+
+}
+
+.hero-text {
+    padding-inline-start: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 1;
+
+}
+
+.hero-text h1 {
+    font-size: 6rem;
+    letter-spacing: -0.05em;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+.hero-svg {
+    right: 0px;
+    z-index: 1;
+}
+
+.hero-text button {
+    font-size: 1.1rem;
+    padding: 7px 45px;
+}
+
+
+button {
+    background-color: #191919;
+    border-radius: 50px;
+    color: white;
+}
+
+/*TRENDING SECTION*/
+
+.trending-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    width: 400px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+.card span {
+    font-size: 1.9rem;
+    color: #e9e9e9;
+    font-weight: bold;
+}
+
+.article img {
+    width: 1.2rem;
+}
+
+.article:first-child {
+    display: flex;
+}
